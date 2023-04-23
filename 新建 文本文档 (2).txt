@@ -1,0 +1,71 @@
+Review
+ 
+
+Jest
+ -- Introduction
+
+    Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+    It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!
+
+ -- Common function
+   -- describe
+      describe(name, fn) creates a block that groups together several related tests. For example, if you have a myBeverage object that is supposed to be delicious but not sour, you could test it with:
+   -- it
+   -- test
+   -- jest.fn
+   -- jest.mock
+   -- after all
+   -- after each
+   -- before all
+   -- before each
+   -- xtest(xit) == test.skip(it.skip)
+   -- xdescribe == describe.skip
+
+  -- Parameter & Coverage
+   -- react-scripts test --coverage --watchAll=false
+
+   -- test result & report
+  
+  -- istanbul
+
+  -- test.only(it.only) / describe only
+  
+  --Test Suites - 对应 test file 的数量
+
+
+行覆盖率（line coverage）：是否每一行都执行了？
+函数覆盖率（function coverage）：是否每个函数都调用了？
+分支覆盖率（branch coverage）：是否每个if代码块都执行了？
+语句覆盖率（statement coverage）：是否每个语句都执行了？
+
+state
+props  如何mock
+   
+   
+一个it mock 的值，是否会影响下一个？
+mock 一个成功值
+mock 一个失败值
+mock 一个throw error
+忽略特定方法的测试
+
+
+
+testing-library/react
+   -- Introcution
+      React Testing Library builds on top of DOM Testing Library by adding APIs for working with React components.
+
+   -- Common function
+     -- query
+     -- get
+     -- find
+
+References
+  -- https://jestjs.io/
+  -- https://testing-library.com/docs/react-testing-library/intro/
+
+Installation
+  -- npm install @testing-library/jest-dom
+  -- npm install @testing-library/react
+  -- npm install @testing-library/user-event
+  -- npm install jest
