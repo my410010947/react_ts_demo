@@ -49,6 +49,8 @@ mock 一个失败值
 mock 一个throw error
 忽略特定方法的测试
 
+test 方法第三个时间参数
+
 
 
 testing-library/react
